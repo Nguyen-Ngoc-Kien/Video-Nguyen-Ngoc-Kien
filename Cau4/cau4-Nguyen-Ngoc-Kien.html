@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Video Player</title>
+    <link rel="stylesheet" href="./cau4-Nguyen-Ngoc-Kien.css">
+</head>
+<body>
+    <div class="container">
+        <div class="video-container">
+            <video id="video" width="1600" height="900" src="./assets/video/canhac.mp4"></video>
+            <div id="play-btn" class="play-btn">
+                <img src="./assets/svg/stop.svg" alt="">
+            </div>
+            <div id="layer-content" class="layer-content">
+                <div class="content-container">
+                    <p class="title">AI MANG CÔ ĐƠN ĐI - ICM x APJ | OFFICIAL AUDIO</p>
+                    <p class="description">music</p>
+                </div>
+                <div class="time"> <span id="current-time">00:00</span> / <span id="total-time">00:00</span></div>
+            </div>
+            <div class="controls-container">
+                <div class="progress-bar">
+                    <div id="progress" class="progress"></div>
+                </div>
+                <div class="controls">
+                    <div id="play-pause" class="play">
+                        <img id="play-pause-icon" src="./assets/svg/stop.svg" alt="">
+                    </div>
+                    <div id="back" class="back">
+                        <img src="./assets/svg/back-15s.svg" alt="">
+                    </div>
+                    <div id="forward" class="forward">
+                        <img src="./assets/svg/forward-15s.svg" alt="">
+                    </div>
+                    <div id="mute-unmute" class="mute">
+                        <img id="unmute-icon" src="./assets/svg/sound.svg" alt="">
+                    </div>
+                    <div id="zoom" class="zoom">
+                        <img src="./assets/svg/zoom.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./cau4-Nguyen-Ngoc-Kien.js"></script>
+</body>
+</html>
